@@ -6,17 +6,6 @@ public class Student {
 	private String facultyNumber;
 	private String name;
 
-	public Student() {
-		super();
-	}
-
-	public Student(Long id, String facultyNumber, String name) {
-		super();
-		this.id = id;
-		this.facultyNumber = facultyNumber;
-		this.name = name;
-	}
-
 	public Long getId() {
 		return id;
 	}
